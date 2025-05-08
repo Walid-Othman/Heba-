@@ -1,50 +1,50 @@
-body{
+body {
     background-color: black;
 }
 
-.data{
+.data {
     display: flex;
     justify-content: center;
-gap: 30px;
-    padding: 8rem;
-flex-wrap: wrap;
-width: 150px;
+    gap: 30px;
+    padding: 8rem 0;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-a{
-   background-color: rgb(218, 13, 13);
-   color: white;
-   /* margin-left: 40%; */
-   display: block;
-   /* margin-top: 40%; */
-   margin-top: 20px;
- width: 100%;
-   font-size: 20px;
-   text-align: center;
-   padding: 15px;
-   border-radius: 15px;
-   text-decoration: none;
-   box-shadow: 6px 6px 5px rgb(243, 141, 141);
-   transition: 0.5s ease;
+a {
+    background-color: rgb(218, 13, 13);
+    color: white;
+    /* margin-left: 40%; */
+    display: block;
+    /* margin-top: 40%; */
+    margin-top: 20px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 6px 6px 5px rgb(243, 141, 141);
+    transition: 0.5s ease;
 
 }
 
-a:hover{
+a:hover {
     background-color: rgb(126, 10, 10);
     color: gold;
     box-shadow: 6px 6px 5px gold;
 }
 
-i{
+i {
     font-size: 25px;
     padding-right: 5px;
 
 }
 
-@media(max-width:500px){
-  
+@media(max-width:500px) {
 
-    i{
+
+    i {
         font-size: 20px;
     }
 
@@ -55,15 +55,18 @@ i{
         margin-left: -128px;
     }
 
+    a {
+        font-size: 16px;
+        width: 80%;
+
+    }
+
 
 }
 
-a{
-    font-size: 16px;
-    width: 80%;
 
-}
 
-html, body{
+html,
+body {
     overflow-x: hidden;
 }
